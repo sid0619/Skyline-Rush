@@ -1,8 +1,11 @@
 
 name: Build Android APK
 
-on:
+'on':
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -33,3 +36,5 @@ jobs:
         with:
           name: Skyline-Rush-APK
           path: android/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+concurrency: 
