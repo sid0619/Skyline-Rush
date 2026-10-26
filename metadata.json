@@ -1,0 +1,6 @@
+{
+  "name": "Skyline Rush: Rift Runner",
+  "description": "High-octane 2D futuristic endless runner with 3-lane rooftop traversal, Compose Canvas simulation, Unity Ads integration, and native Android Studio project.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
